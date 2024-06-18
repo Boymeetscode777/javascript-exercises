@@ -2,7 +2,7 @@ const removeFromArray = function(array,argToRemove) {
     const newArray=[];
 
     for (let i = 0; i < array.length; i++){
-        if (array[i]!==n){
+        if (array[i]!==argToRemove){
             newArray.push(array[i])
         }
     }
